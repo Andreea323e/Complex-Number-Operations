@@ -1,2 +1,6 @@
 # Complex-Number-Operations
 Evaluating the sums of complex numbers with varying coordinates and compare the distances between them , displaying squares of numbers with distances with distances exceeding or equaling the sum's distance, sorted by coordinate count and distance.
+
+Further description:
+
+Unknown pairs of two, three, or four double-precision fractional numbers are provided via keyboard input (until EOF). These pairs represent imaginary numbers in the form of a + bi, a + bi + cj, or a + bi + cj + dk. The imaginary parts follow the properties i² = -1, j² = -1, k² = -1, ij = ji = 0, jk = kj = 0, ik = ki = 0. Thus, imaginary numbers can be multiplied even if they are of different types. However, this multiplication is not commutative. For instance, multiplying an imaginary number with 2 components by one with 3 components results in an imaginary number with 2 components (the third component is disregarded). Conversely, multiplying an imaginary number with 3 components by one with 2 components results in an imaginary number with 3 components. Similar rules apply to all other types of multiplications. Additionally, the addition operation is also non-commutative, and the rules apply similarly to multiplication.
